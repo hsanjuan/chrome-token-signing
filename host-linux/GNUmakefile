@@ -22,7 +22,7 @@ endif
 include ../VERSION.mk
 
 all:
-	qmake VERSION=$(VERSIONEX)
+	qmake-qt5 VERSION=$(VERSIONEX)
 	make -f Makefile
 
 clean:
